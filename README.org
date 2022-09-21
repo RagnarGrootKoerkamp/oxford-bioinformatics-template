@@ -9,3 +9,4 @@ Clone the repository and run ~make~ from the repository root.
 
 ** Changes
 - Remove OUP from front page footer, and add copyright symbol for even first pages.
+- Remove Bioinformatics and image from front page header, remove ~\access~ and ~\appnotes~.
