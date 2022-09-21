@@ -157,7 +157,8 @@
 \setlength\footskip{10\p@}          % space above footer line
 \setlength\maxdepth{.5\topskip}     % pages can be short or deep by half a line?
 
-\setlength\textwidth{40.5pc}          % text measure excluding margins
+\setlength\textwidth{8.5truein}
+\addtolength\textwidth{-10.5pc}
 
 \setlength\textheight{61\baselineskip} % 54 lines on a full page,
 \addtolength\textheight{\topskip}      %   including the first
@@ -173,7 +174,7 @@
 \setlength\@tempdima{\paperwidth}
 \addtolength\@tempdima{-\textwidth}
 \addtolength\@tempdima{-5.25pc}
-\setlength\evensidemargin{\@tempdima}
+\setlength\evensidemargin{5.25pc}
 \addtolength\evensidemargin{-1in}
 
 \setlength\columnsep{1.5pc}          % space between columns for double-column text

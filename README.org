@@ -18,3 +18,5 @@ Clone the repository and run ~make~ from the repository root.
 - Add appendix.
 - Add ~T1~ font encoding to ~fontenc~ package for smallcaps support. NOTE: This changes the size of ~em~.
 - Change abstract and top rule to be the full page width.
+- Fix slightly off-center page by forcing left and right margins to be equal on
+  both even and odd pages.
