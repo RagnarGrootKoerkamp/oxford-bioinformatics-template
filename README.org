@@ -13,3 +13,4 @@ Clone the repository and run ~make~ from the repository root.
 - Remove crop markers and change physical page size to ~11truein~ by ~8.5truein~.
 - Empty ~\subsection{}~, ~\history{}~, and ~\access{}~.
 - Remove ~plain.bst~.
+- Rename ~document.bib~ to ~bibliography.bib~.
