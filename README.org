@@ -11,3 +11,4 @@ Clone the repository and run ~make~ from the repository root.
 - Remove OUP from front page footer, and add copyright symbol for even first pages.
 - Remove Bioinformatics and image from front page header, remove ~\access~ and ~\appnotes~.
 - Remove crop markers and change physical page size to ~11truein~ by ~8.5truein~.
+- Empty ~\subsection{}~, ~\history{}~, and ~\access{}~.
