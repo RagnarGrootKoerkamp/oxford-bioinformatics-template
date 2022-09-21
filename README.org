@@ -8,3 +8,4 @@ See the git history or remarks below for a list of changes.
 Clone the repository and run ~make~ from the repository root.
 
 ** Changes
+- Remove OUP from front page footer, and add copyright symbol for even first pages.
