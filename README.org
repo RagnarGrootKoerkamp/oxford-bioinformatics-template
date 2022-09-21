@@ -14,3 +14,4 @@ Clone the repository and run ~make~ from the repository root.
 - Empty ~\subsection{}~, ~\history{}~, and ~\access{}~.
 - Remove ~plain.bst~.
 - Rename ~document.bib~ to ~bibliography.bib~.
+- Move text from ~main.tex~ into ~paper/*.tex~.
