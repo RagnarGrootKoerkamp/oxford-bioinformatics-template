@@ -16,3 +16,4 @@ Clone the repository and run ~make~ from the repository root.
 - Rename ~document.bib~ to ~bibliography.bib~.
 - Move text from ~main.tex~ into ~paper/*.tex~.
 - Add appendix.
+- Add ~T1~ font encoding to ~fontenc~ package for smallcaps support. NOTE: This changes the size of ~em~.

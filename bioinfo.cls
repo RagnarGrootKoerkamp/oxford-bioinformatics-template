@@ -30,7 +30,7 @@
 
 % Load all necessary packages
 \RequirePackage{inputenc,crop,graphicx,amsmath,array,color,amssymb,flushend,stfloats,amsthm,chngpage,times}
-\RequirePackage[LY1]{fontenc}
+\RequirePackage[LY1,T1]{fontenc}
 
 \renewcommand{\rmdefault}{ptm}
 \renewcommand{\sfdefault}{phb}
@@ -261,12 +261,12 @@
   {%
   \def\@oddfoot{{
         \hbox to \textwidth{\helvetica
-        \fontsize{7}{9}\fontshape{n}\selectfont \copyright\space The Author \@copyrightyear.
+        \fontsize{7}{9}\fontshape{n}\selectfont \textcopyright\space The Author(s) \@copyrightyear.
           \hfill\small\helveticabold\thepage}%
         }}%
   \def\@evenfoot{{
         \hbox to \textwidth{\helvetica\thepage\hfill
-          \fontsize{7}{9}\fontshape{n}\selectfont \copyright\space The Author \@copyrightyear.}%
+          \fontsize{7}{9}\fontshape{n}\selectfont \textcopyright\space The Author(s) \@copyrightyear.}%
         }}%
   \let\@evenhead\relax
   \let\@oddhead\relax}
