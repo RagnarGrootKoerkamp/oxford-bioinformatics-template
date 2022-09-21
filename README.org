@@ -1,0 +1,10 @@
+#+title: Revised Oxford Bioinformatics template
+
+This repository contains a cleaned up template for Oxford Bioinformatics.
+The starting point (initial commit) is the version on Overleaf [[https://www.overleaf.com/latex/templates/template-for-oxford-bioinformatics-journal-new-version/zjrmbrmtrytg][here]].
+See the git history or remarks below for a list of changes.
+
+** Usage
+Clone the repository and run ~make~ from the repository root.
+
+** Changes
