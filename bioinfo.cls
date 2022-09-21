@@ -10,6 +10,8 @@
 
 \setlength{\paperheight}{11truein}
 \setlength{\paperwidth}{8.5truein}
+\PassOptionsToPackage{width=8.5truein}{crop}
+\PassOptionsToPackage{height=11truein}{crop}
 
 \newif\if@final
 
