@@ -560,11 +560,12 @@
 
 \def\textcolon{\text{\rm :}}
 
- \def\paragraph{%
+\newcommand{\paragraphtitle}[1]{\textbf{#1.}}
+\def\paragraph{%
    \@startsection{paragraph}{4}{\z@}
    {-6\p@}
    {-.4em}
-   {\reset@font\itshape}}
+   {\paragraphtitle}}
 
 % ********************
 % Figures and tables *

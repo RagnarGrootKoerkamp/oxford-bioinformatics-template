@@ -20,3 +20,5 @@ Clone the repository and run ~make~ from the repository root.
 - Change abstract and top rule to be the full page width.
 - Fix slightly off-center page by forcing left and right margins to be equal on
   both even and odd pages.
+- Redefine ~\paragraph{title}~ to print the paragraph title in bold, followed by
+  a period.
