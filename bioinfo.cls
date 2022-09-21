@@ -484,7 +484,7 @@
   \vspace*{\aboveskipchk}%
   \vspace{\dropfromtop}%
   \vskip2pt
-  \rule{415pt}{2\p@}\par%
+  \rule{\textwidth}{2\p@}\par%
   \helvetica
   \hbox to \textwidth{%
   \parbox[t]{36.5pc}{%
@@ -510,7 +510,7 @@
   \let\section\absection  
   {\helvetica\fontsize{10}{12}\bfseries\selectfont Abstract}\par}
   \vskip5pt
-    \begingroup\begin{minipage}[t]{415pt}\parindent=0pt
+    \begingroup\begin{minipage}[t]{\textwidth}\parindent=0pt
     {\helvetica\fontsize{9}{12}\selectfont \@abstract\par}
     \end{minipage}
     \endgroup
