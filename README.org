@@ -1,11 +1,14 @@
 #+title: Revised Oxford Bioinformatics latex template
 
-This repository contains a cleaned up latex template for Oxford Bioinformatics.
+This repository contains a cleaned up latex template for Oxford Bioinformatics
+that can be used for preprints. It has not been used yet for an actual
+submission so use at your own risk.
+
 The starting point (initial commit) is the version on Overleaf [[https://www.overleaf.com/latex/templates/template-for-oxford-bioinformatics-journal-new-version/zjrmbrmtrytg][here]].
 See the git history or remarks below for a list of changes.
 
 ** Usage
-Clone the repository or [[https://github.com/RagnarGrootKoerkamp/oxford-bioinformatics-template/archive/refs/heads/master.zip][download it as zip]] and run ~make~ from the repository root to start ~latexmk~
+Clone this repository or [[https://github.com/RagnarGrootKoerkamp/oxford-bioinformatics-template/archive/refs/heads/master.zip][download it as zip]] and run ~make~ from the repository root to start ~latexmk~
 in /preview-continuously mode/.
 
 ** Changes
@@ -13,21 +16,27 @@ in /preview-continuously mode/.
 | Original             | Revised             |
 | [[frontpage-before.png]] | [[frontpage-after.png]] |
 
+*** Class and main file
 - Remove OUP from front page footer, and add copyright symbol for even first pages.
 - Remove Bioinformatics and image from front page header, remove ~\access~ and ~\appnotes~.
-- Remove crop markers and change physical page size to ~11truein~ by ~8.5truein~.
-- Empty ~\subsection{}~, ~\history{}~, and ~\access{}~.
-- Remove ~plain.bst~.
-- Rename ~document.bib~ to ~bibliography.bib~.
-- Move text from ~main.tex~ into ~paper/*.tex~.
-- Add appendix.
-- Add ~T1~ font encoding to ~fontenc~ package for smallcaps support. NOTE: This changes the size of ~em~.
+- Remove crop markers and change physical page size to ~11truein~ by
+  ~8.5truein~.
 - Change abstract and top rule to be the full page width.
-- Fix slightly off-center page by forcing left and right margins to be equal on
-  both even and odd pages.
-- Redefine ~\paragraph{title}~ to print the paragraph title in bold, followed by
-  a period.
+
+  *NOTE*: Published papers are inconsistent here. Compare the
+  [[https://doi.org/10.1093/bioinformatics/btaa777][WFA paper]] with the [[https://doi.org/10.1093/bioinformatics/btw753][Edlib paper]].
+- Empty ~\subsection{}~, ~\history{}~, and ~\access{}~.
+- Add ~T1~ font encoding to ~fontenc~ package for smallcaps support. NOTE: This changes the size of ~em~.
 - Fix a typo in the sans-serif font used in captions. This changes captions from
   serif to sans-serif, and fixes italics and smallcaps inside captions. See [[https://tex.stackexchange.com/questions/453542/unable-to-use-texit-in-caption][tex.stackexchange]].
-- Add a bunch of default packages to [[paper/header.tex][header.tex]], including ~hyperref~ for
+
+  *NOTE*: Some published Bioinformatics papers seem to still have the wrong serif captions.
+- Redefine ~\paragraph{title}~ to print the paragraph title in bold, followed by
+  a period.
+
+*** File structure
+- Move text from ~main.tex~ into ~paper/*.tex~.
+- Add a bunch of default packages to [[paper/header.tex][paper/header.tex]], including ~hyperref~ for
   clickable links.
+- Rename ~document.bib~ to ~bibliography.bib~, and remove unused ~plain.bst~.
+- Add appendix.
