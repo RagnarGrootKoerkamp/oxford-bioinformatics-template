@@ -5,9 +5,14 @@ The starting point (initial commit) is the version on Overleaf [[https://www.ove
 See the git history or remarks below for a list of changes.
 
 ** Usage
-Clone the repository and run ~make~ from the repository root.
+Clone the repository and run ~make~ from the repository root to start ~latexmk~
+in /preview-continuously mode/.
 
 ** Changes
+
+| Original             | Revised             |
+| [[frontpage-before.png]] | [[frontpage-after.png]] |
+
 - Remove OUP from front page footer, and add copyright symbol for even first pages.
 - Remove Bioinformatics and image from front page header, remove ~\access~ and ~\appnotes~.
 - Remove crop markers and change physical page size to ~11truein~ by ~8.5truein~.
