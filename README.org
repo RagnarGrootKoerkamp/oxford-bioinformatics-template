@@ -5,7 +5,7 @@ The starting point (initial commit) is the version on Overleaf [[https://www.ove
 See the git history or remarks below for a list of changes.
 
 ** Usage
-Clone the repository and run ~make~ from the repository root to start ~latexmk~
+Clone the repository or [[https://github.com/RagnarGrootKoerkamp/oxford-bioinformatics-template/archive/refs/heads/master.zip][download it as zip]] and run ~make~ from the repository root to start ~latexmk~
 in /preview-continuously mode/.
 
 ** Changes
