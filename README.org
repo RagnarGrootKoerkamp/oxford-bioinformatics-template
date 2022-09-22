@@ -1,6 +1,6 @@
-#+title: Revised Oxford Bioinformatics template
+#+title: Revised Oxford Bioinformatics latex template
 
-This repository contains a cleaned up template for Oxford Bioinformatics.
+This repository contains a cleaned up latex template for Oxford Bioinformatics.
 The starting point (initial commit) is the version on Overleaf [[https://www.overleaf.com/latex/templates/template-for-oxford-bioinformatics-journal-new-version/zjrmbrmtrytg][here]].
 See the git history or remarks below for a list of changes.
 
@@ -29,3 +29,5 @@ in /preview-continuously mode/.
   a period.
 - Fix a typo in the sans-serif font used in captions. This changes captions from
   serif to sans-serif, and fixes italics and smallcaps inside captions. See [[https://tex.stackexchange.com/questions/453542/unable-to-use-texit-in-caption][tex.stackexchange]].
+- Add a bunch of default packages to [[paper/header.tex][header.tex]], including ~hyperref~ for
+  clickable links.

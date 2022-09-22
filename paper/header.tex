@@ -1,4 +1,49 @@
 % \usepackage's and \newcommand's go here.
 
+% PACKAGES
+
+% Make hyperlinks work, but do not show coloured boxes around them.
+\let\href\undefined % N
+\usepackage[hidelinks]{hyperref}
+\usepackage{layout}
+\usepackage[capitalize]{cleveref}
 \usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}  % \leadsto
+\usepackage[caption=false]{subfig}  % deprecated
+%\usepackage{subcaption}  % for subfigure; has some issues
+\usepackage{booktabs}   % tables: toprule, midrule
+\usepackage{colortbl}
+\usepackage{dsfont} % beautiful 1
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[]{todonotes}  % [disable]
+\usepackage{mathtools}   % smashoperator
+\usepackage{graphicx}
+\usepackage{epigraph}
+\usepackage{siunitx}  % aligning to decimal point
+\usepackage{svg}
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,decorations.pathreplacing,calc}
+\usepackage{multirow}   % tables
+\usepackage{numprint}   % tables
+\npdecimalsign{.}
+\usepackage{thmtools}
+\usepackage{thm-restate}
+
+% CONFIGURATION
+
+\setcounter{tocdepth}{3}
+
+\declaretheorem[name=Theorem]{thm}
+\declaretheorem[name=Proposition]{prop}
+\declaretheorem[name=Lemma]{lem}
+\declaretheorem[name=Definition]{definition}
+\declaretheorem[name=Observation]{observation}
+\declaretheorem[name=Corollary]{cor}
+\declaretheorem[name=Remark]{remark}
+
+% COMMANDS
+
 \newcommand{\mytool}{\mbox{\textsc{MyToolName}}\xspace}
