@@ -22,3 +22,5 @@ Clone the repository and run ~make~ from the repository root.
   both even and odd pages.
 - Redefine ~\paragraph{title}~ to print the paragraph title in bold, followed by
   a period.
+- Fix a typo in the sans-serif font used in captions. This changes captions from
+  serif to sans-serif, and fixes italics and smallcaps inside captions. See [[https://tex.stackexchange.com/questions/453542/unable-to-use-texit-in-caption][tex.stackexchange]].

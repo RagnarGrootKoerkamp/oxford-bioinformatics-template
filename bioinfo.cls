@@ -33,7 +33,7 @@
 \RequirePackage[LY1,T1]{fontenc}
 
 \renewcommand{\rmdefault}{ptm}
-\renewcommand{\sfdefault}{phb}
+\renewcommand{\sfdefault}{phv}
 \renewcommand{\ttdefault}{pcr}
 
 %\RequirePackage[LY1,mtbold]{mathtime}
