@@ -7,6 +7,15 @@ submission so use at your own risk.
 The starting point (initial commit) is the version on Overleaf [[https://www.overleaf.com/latex/templates/template-for-oxford-bioinformatics-journal-new-version/zjrmbrmtrytg][here]].
 See the git history or remarks below for a list of changes.
 
+** WARNING
+It seems that the overleaf package I based this on has changed meanwhile. I
+copied things from there in September 2022 (see the initial commit here), but
+the 'last modified date' on Overleaf is listed as April 2022. Very confusing.
+
+Either way, it does seem that newly published papers look more like the current
+version of the overleaf template rather than the one used here. But they are
+still not identical. It's very confusing.
+
 ** Usage
 Clone this repository or [[https://github.com/RagnarGrootKoerkamp/oxford-bioinformatics-template/archive/refs/heads/master.zip][download it as zip]] and run ~make~ from the repository root to start ~latexmk~
 in /preview-continuously mode/.
