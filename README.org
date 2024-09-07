@@ -1,5 +1,26 @@
 #+title: Revised Oxford Bioinformatics latex template
 
+* Note on new template
+Currently, Bioinformatics [[https://academic.oup.com/bioinformatics/pages/instructions_for_authors][recommends]]
+[[https://www.overleaf.com/latex/templates/oup-general-template/ybpypwncdxyb][this new general template]]. Unfortunately it has very different styling from the
+final/classic layout below, but I had to switch out my original template to the
+general one on submission, so best to use that one by default now.
+
+For convenience, a zip of the new template is [[./OUP General Template.zip][here]], so that cloning the Overleaf
+template isn't needed.
+
+For Bioinformatics, the sheet [[https://academic.oup.com/pages/authoring/journals/preparing_your_manuscript#latex][linked on this page]] indicates that the following
+documentclass invocation should be used:
+#+begin_src latex
+\documentclass[numsec,webpdf,modern,large]
+#+end_src
+Also, add the following line:
+#+begin_src latex
+\bibliographystyle{abbrvnat}
+#+end_src
+
+* Original readme
+
 This repository contains a cleaned up latex template for Oxford Bioinformatics
 that can be used for preprints. It has not been used yet for an actual
 submission so use at your own risk.
