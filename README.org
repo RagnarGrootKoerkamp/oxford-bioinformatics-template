@@ -1,8 +1,31 @@
-#+title: Revised Oxford Bioinformatics latex template
+* Jan 2026: A new template, again
 
-* Note on new template
-Currently, Bioinformatics [[https://academic.oup.com/bioinformatics/pages/instructions_for_authors][recommends]]
-[[https://www.overleaf.com/latex/templates/oup-general-template/ybpypwncdxyb][this new general template]]. Unfortunately it has very different styling from the
+They updated the [[https://www.overleaf.com/latex/templates/oup-general-template/fqkhysbcbpwv][Overleaf template]] again, as linked from the [[https://academic.oup.com/pages/for-authors/journals/preparing-and-submitting-your-manuscript][OUP page]].
+They promise a 'direct download' link, but it's broken, so to again save you the
+effort of cloning an Overleaf repo, [[file:OUP_General_Template_4.zip][here]] is the latest zip, =OUP_General_Template_4.zip=.
+
+As before and as mentioned in the sheet [[https://academic.oup.com/pages/authoring/journals/preparing_your_manuscript#latex][linked on this page]], for Bioinformatics
+you'll have to change the documentclass to
+#+begin_src latex
+\documentclass[numsec,webpdf,modern,large]
+#+end_src
+add change the citation style:
+#+begin_src latex
+\bibliographystyle{author-date}
+#+end_src
+(instead of =abbrvnat= in previous versions).
+It's still weird though, because there is a comment stating
+#+begin_src latex
+%UNCOMMENT THE BELOW TWO LINES IN CASE YOU NEED AUTHOR YEAR FORMAT.
+%\bibliographystyle{oup-abbrvnat}
+%\bibliography{reference}
+#+end_src
+and indeed a file =oup-abbrvnat.bst= is provided, and it seems to give the
+same result as putting =author-date= directly...
+
+* September 2024: Note on new template
++Currently+, Bioinformatics [[https://academic.oup.com/bioinformatics/pages/instructions_for_authors][recommends]]
+[[https://www.overleaf.com/latex/templates/oup-general-template/ybpypwncdxyb][this new general template]] (meanwhile updated for 2026 version). Unfortunately it has very different styling from the
 final/classic layout below, but I had to switch out my original template to the
 general one on submission, so best to use that one by default now.
 
@@ -19,13 +42,13 @@ Also, add the following line:
 \bibliographystyle{abbrvnat}
 #+end_src
 
-* Original readme
+* September 2022: Original readme
 
 This repository contains a cleaned up latex template for Oxford Bioinformatics
-that can be used for preprints. It has not been used yet for an actual
-submission so use at your own risk.
+that can be used for preprints.
 
-The starting point (initial commit) is the version on Overleaf [[https://www.overleaf.com/latex/templates/template-for-oxford-bioinformatics-journal-new-version/zjrmbrmtrytg][here]].
+The starting point (initial commit) is the version on Overleaf [[https://www.overleaf.com/latex/templates/template-for-oxford-bioinformatics-journal-new-version/zjrmbrmtrytg][here]] (meanwhile
+updated to the Feb 2026 version).
 See the git history or remarks below for a list of changes.
 
 ** WARNING
